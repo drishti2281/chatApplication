@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">chatApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="send_message">Send Message</string>
+    <string name="left_text">left side\n</string>
+    <string name="right_text">right side</string>
+    <string name="send">send</string>
+    <string name="left">left text</string>
+    <string name="right">right text</string>
+    <string name="msg">Message</string>
+    <string name="send_by">Send Message</string>
+    <string name="settings">Setting</string>
+    <string name="profile">Profile</string>
+    <string name="home">home</string>
+</resources>

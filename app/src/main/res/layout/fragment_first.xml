@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".FirstFragment">
+        <Button
+            android:id="@+id/btnPop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Fragment" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:itemCount="10"
+            android:layout_weight="1"
+            android:id="@+id/recyclerView"
+            tools:listitem="@layout/spinner_item"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etSendText"
+                android:layout_weight="1"
+                android:hint="@string/send_message"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:tint="@color/black"
+                android:id="@+id/ibSend"
+                android:src="@android:drawable/ic_menu_send"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>
